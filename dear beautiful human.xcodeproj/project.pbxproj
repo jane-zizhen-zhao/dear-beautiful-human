@@ -29,6 +29,7 @@
 		BD61169928996CA600D551FE /* simpleGoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */; };
 		BD61169B28996DC600D551FE /* simpleGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169A28996DC600D551FE /* simpleGoals.swift */; };
 		BD61169D28997D5800D551FE /* createGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169C28997D5800D551FE /* createGoalViewController.swift */; };
+		BD61169F289AC32D00D551FE /* draftsOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169E289AC32D00D551FE /* draftsOverviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleGoalsTableViewController.swift; sourceTree = "<group>"; };
 		BD61169A28996DC600D551FE /* simpleGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleGoals.swift; sourceTree = "<group>"; };
 		BD61169C28997D5800D551FE /* createGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createGoalViewController.swift; sourceTree = "<group>"; };
+		BD61169E289AC32D00D551FE /* draftsOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draftsOverviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */,
 				BD61169A28996DC600D551FE /* simpleGoals.swift */,
 				BD61169C28997D5800D551FE /* createGoalViewController.swift */,
+				BD61169E289AC32D00D551FE /* draftsOverviewViewController.swift */,
 			);
 			path = "dear beautiful human";
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				BD6116302897A89A00D551FE /* lettersViewController.swift in Sources */,
 				BD61169928996CA600D551FE /* simpleGoalsTableViewController.swift in Sources */,
 				BD6116342897A90100D551FE /* accountViewController.swift in Sources */,
+				BD61169F289AC32D00D551FE /* draftsOverviewViewController.swift in Sources */,
 				BD61162A2897952000D551FE /* signInViewController.swift in Sources */,
 				BD6115F12897648800D551FE /* SceneDelegate.swift in Sources */,
 				BD61169B28996DC600D551FE /* simpleGoals.swift in Sources */,
