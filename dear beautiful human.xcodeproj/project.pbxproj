@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93E3B7AA289ACBD30032DBAB /* newLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3B7A9289ACBD30032DBAB /* newLetterViewController.swift */; };
+		93E3B7AE289ACC5C0032DBAB /* dateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3B7AD289ACC5C0032DBAB /* dateViewController.swift */; };
 		BD6115EF2897648800D551FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6115EE2897648800D551FE /* AppDelegate.swift */; };
 		BD6115F12897648800D551FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6115F02897648800D551FE /* SceneDelegate.swift */; };
 		BD6115F32897648800D551FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6115F22897648800D551FE /* ViewController.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93E3B7A9289ACBD30032DBAB /* newLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newLetterViewController.swift; sourceTree = "<group>"; };
+		93E3B7AD289ACC5C0032DBAB /* dateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateViewController.swift; sourceTree = "<group>"; };
 		BD6115EB2897648800D551FE /* dear beautiful human.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dear beautiful human.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6115EE2897648800D551FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD6115F02897648800D551FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				BD61169A28996DC600D551FE /* simpleGoals.swift */,
 				BD61169C28997D5800D551FE /* createGoalViewController.swift */,
 				BD61169E289AC32D00D551FE /* draftsOverviewViewController.swift */,
+				93E3B7A9289ACBD30032DBAB /* newLetterViewController.swift */,
+				93E3B7AD289ACC5C0032DBAB /* dateViewController.swift */,
 			);
 			path = "dear beautiful human";
 			sourceTree = "<group>";
@@ -313,10 +319,12 @@
 				BD61169F289AC32D00D551FE /* draftsOverviewViewController.swift in Sources */,
 				BD61162A2897952000D551FE /* signInViewController.swift in Sources */,
 				BD6115F12897648800D551FE /* SceneDelegate.swift in Sources */,
+				93E3B7AA289ACBD30032DBAB /* newLetterViewController.swift in Sources */,
 				BD61169B28996DC600D551FE /* simpleGoals.swift in Sources */,
 				BD6115F92897648800D551FE /* dear_beautiful_human.xcdatamodeld in Sources */,
 				BD6116242897949100D551FE /* welcomeScreenViewController.swift in Sources */,
 				BD61169D28997D5800D551FE /* createGoalViewController.swift in Sources */,
+				93E3B7AE289ACC5C0032DBAB /* dateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

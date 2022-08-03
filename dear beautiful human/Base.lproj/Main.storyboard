@@ -376,6 +376,36 @@
             </objects>
             <point key="canvasLocation" x="4057" y="84"/>
         </scene>
+        <!--New Letter View Controller-->
+        <scene sceneID="Ako-2d-dwk">
+            <objects>
+                <viewController id="Nz8-Yv-Ztz" customClass="newLetterViewController" customModule="dear_beautiful_human" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qXt-c6-B2i">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uCS-RZ-dfJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glB-Rg-lJ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5099" y="767"/>
+        </scene>
+        <!--Date View Controller-->
+        <scene sceneID="68i-2V-DG8">
+            <objects>
+                <viewController id="418-6P-cgO" customClass="dateViewController" customModule="dear_beautiful_human" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="94h-qh-uSu">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1cw-NP-MYZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5m-JM-8qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6119" y="767"/>
+        </scene>
         <!--Letters View Controller-->
         <scene sceneID="4oC-PP-v64">
             <objects>
