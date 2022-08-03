@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6895BC289AEF21006369ED /* emotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6895BB289AEF21006369ED /* emotionsViewController.swift */; };
 		93E3B7AA289ACBD30032DBAB /* newLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3B7A9289ACBD30032DBAB /* newLetterViewController.swift */; };
 		93E3B7AE289ACC5C0032DBAB /* dateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3B7AD289ACC5C0032DBAB /* dateViewController.swift */; };
 		BD6115EF2897648800D551FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6115EE2897648800D551FE /* AppDelegate.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B6895BB289AEF21006369ED /* emotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionsViewController.swift; sourceTree = "<group>"; };
 		93E3B7A9289ACBD30032DBAB /* newLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newLetterViewController.swift; sourceTree = "<group>"; };
 		93E3B7AD289ACC5C0032DBAB /* dateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateViewController.swift; sourceTree = "<group>"; };
 		BD6115EB2897648800D551FE /* dear beautiful human.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dear beautiful human.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 				BD6115F02897648800D551FE /* SceneDelegate.swift */,
 				BD6115F22897648800D551FE /* ViewController.swift */,
 				BD6115F42897648800D551FE /* Main.storyboard */,
+				6B6895BB289AEF21006369ED /* emotionsViewController.swift */,
 				BD6115FA2897648B00D551FE /* Assets.xcassets */,
 				BD6115FC2897648B00D551FE /* LaunchScreen.storyboard */,
 				BD6115FF2897648B00D551FE /* Info.plist */,
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6895BC289AEF21006369ED /* emotionsViewController.swift in Sources */,
 				BD611628289794FA00D551FE /* createAccountViewController.swift in Sources */,
 				BD6115F32897648800D551FE /* ViewController.swift in Sources */,
 				BD61162E2897A87200D551FE /* moodTrackerViewController.swift in Sources */,
