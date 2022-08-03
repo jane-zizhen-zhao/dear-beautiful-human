@@ -26,6 +26,9 @@
 		BD6116302897A89A00D551FE /* lettersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61162F2897A89A00D551FE /* lettersViewController.swift */; };
 		BD6116322897A8C600D551FE /* educationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6116312897A8C600D551FE /* educationViewController.swift */; };
 		BD6116342897A90100D551FE /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6116332897A90100D551FE /* accountViewController.swift */; };
+		BD61169928996CA600D551FE /* simpleGoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */; };
+		BD61169B28996DC600D551FE /* simpleGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169A28996DC600D551FE /* simpleGoals.swift */; };
+		BD61169D28997D5800D551FE /* createGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61169C28997D5800D551FE /* createGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		BD61162F2897A89A00D551FE /* lettersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lettersViewController.swift; sourceTree = "<group>"; };
 		BD6116312897A8C600D551FE /* educationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationViewController.swift; sourceTree = "<group>"; };
 		BD6116332897A90100D551FE /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
+		BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleGoalsTableViewController.swift; sourceTree = "<group>"; };
+		BD61169A28996DC600D551FE /* simpleGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleGoals.swift; sourceTree = "<group>"; };
+		BD61169C28997D5800D551FE /* createGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,9 @@
 				BD61162F2897A89A00D551FE /* lettersViewController.swift */,
 				BD6116312897A8C600D551FE /* educationViewController.swift */,
 				BD6116332897A90100D551FE /* accountViewController.swift */,
+				BD61169828996CA600D551FE /* simpleGoalsTableViewController.swift */,
+				BD61169A28996DC600D551FE /* simpleGoals.swift */,
+				BD61169C28997D5800D551FE /* createGoalViewController.swift */,
 			);
 			path = "dear beautiful human";
 			sourceTree = "<group>";
@@ -296,11 +305,14 @@
 				BD6115EF2897648800D551FE /* AppDelegate.swift in Sources */,
 				BD61162C2897955B00D551FE /* homeScreenViewController.swift in Sources */,
 				BD6116302897A89A00D551FE /* lettersViewController.swift in Sources */,
+				BD61169928996CA600D551FE /* simpleGoalsTableViewController.swift in Sources */,
 				BD6116342897A90100D551FE /* accountViewController.swift in Sources */,
 				BD61162A2897952000D551FE /* signInViewController.swift in Sources */,
 				BD6115F12897648800D551FE /* SceneDelegate.swift in Sources */,
+				BD61169B28996DC600D551FE /* simpleGoals.swift in Sources */,
 				BD6115F92897648800D551FE /* dear_beautiful_human.xcdatamodeld in Sources */,
 				BD6116242897949100D551FE /* welcomeScreenViewController.swift in Sources */,
+				BD61169D28997D5800D551FE /* createGoalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
