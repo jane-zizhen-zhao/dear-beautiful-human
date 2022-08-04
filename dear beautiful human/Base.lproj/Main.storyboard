@@ -327,6 +327,10 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="smileButton:" destination="rIX-EV-Vj0" eventType="touchUpInside" id="CqN-Nz-ReL"/>
+                                    <action selector="smileButton:" destination="esq-0W-See" eventType="touchUpInside" id="fOR-aM-osx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctt-JG-0EW">
                                 <rect key="frame" x="258" y="182" width="72" height="82"/>
@@ -342,6 +346,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="sadButton:" destination="rIX-EV-Vj0" eventType="touchUpInside" id="iVI-64-sag"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6d-RQ-vj7">
                                 <rect key="frame" x="336" y="182" width="72" height="82"/>
@@ -357,6 +364,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="madButton:" destination="rIX-EV-Vj0" eventType="touchUpInside" id="1BG-mb-CBe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdM-3k-d6K">
                                 <rect key="frame" x="98" y="182" width="72" height="82"/>
@@ -373,10 +383,14 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="partyButton:" destination="rIX-EV-Vj0" eventType="touchUpInside" id="w1G-SW-e14"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axD-2i-bfw">
                                 <rect key="frame" x="178" y="182" width="72" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tintColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
@@ -388,6 +402,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="sleepButton:" destination="rIX-EV-Vj0" eventType="touchUpInside" id="Djx-wt-zro"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVK-q3-uPM">
                                 <rect key="frame" x="323" y="384" width="85" height="29"/>
@@ -407,8 +424,9 @@
                     <navigationItem key="navigationItem" id="N47-yx-Gw6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25e-2V-PW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="esq-0W-See" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3239.7196261682243" y="83.585313174946009"/>
+            <point key="canvasLocation" x="3214" y="145"/>
         </scene>
         <!--Mood Tracker View Controller-->
         <scene sceneID="Imw-tT-hd8">
@@ -1365,6 +1383,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
