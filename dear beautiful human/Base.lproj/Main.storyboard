@@ -159,6 +159,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jSM-ko-8ip">
                                 <rect key="frame" x="310" y="298" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="wa3-Cx-dNr" kind="show" id="fu5-bK-biD"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36z-t9-zJC">
                                 <rect key="frame" x="82" y="341" width="51" height="45"/>
@@ -170,6 +173,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Svp-M5-Hom">
                                 <rect key="frame" x="310" y="348" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="XVv-Dt-hq0" kind="show" id="ueE-3a-zKc"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87r-dc-1H2">
                                 <rect key="frame" x="51" y="413" width="326" height="52"/>
@@ -210,7 +216,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="fdc-y8-cSE"/>
                     <connections>
-                        <outlet property="date" destination="jSM-ko-8ip" id="ZQE-6z-PLL"/>
+                        <outlet property="date" destination="jSM-ko-8ip" id="8wN-K4-twJ"/>
                         <outlet property="repeat" destination="eJM-qn-04U" id="lkw-Mk-VvD"/>
                         <outlet property="time" destination="Svp-M5-Hom" id="JLn-3X-AXR"/>
                         <outlet property="whatIsYourGoal" destination="QyE-Qh-X1v" id="lFR-m2-n8k"/>
@@ -219,6 +225,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EpW-ei-uNS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1548" y="2552"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Z7M-6j-HIq">
+            <objects>
+                <viewController id="XVv-Dt-hq0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KmV-Ok-Gwp">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96D-SX-2hx">
+                                <rect key="frame" x="140" y="133" width="148" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Aly-JD-rgt">
+                                <rect key="frame" x="0.0" y="277" width="428" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XCb-pp-Fap"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="azC-xL-ZEe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sws-SP-4dX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547.663551401869" y="3263.7149028077756"/>
+        </scene>
+        <!--Date View Controller-->
+        <scene sceneID="Lsf-hL-89T">
+            <objects>
+                <viewController id="wa3-Cx-dNr" customClass="dateViewController" customModule="dear_beautiful_human" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m8u-rk-UvK">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DsJ-gD-mOI">
+                                <rect key="frame" x="121" y="123" width="186" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="DLv-7x-m3i">
+                                <rect key="frame" x="0.0" y="239" width="428" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v0G-GH-shB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bVZ-yI-1aC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pyc-hh-Uiv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2290.6542056074763" y="2551.6198704103672"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JLW-gg-jNT">
