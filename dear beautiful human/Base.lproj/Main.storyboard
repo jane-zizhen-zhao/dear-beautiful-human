@@ -1032,7 +1032,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a date and time!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xQ-6C-eMT">
-                                <rect key="frame" x="95" y="124" width="239" height="23"/>
+                                <rect key="frame" x="95" y="114" width="239" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
                                 <color key="textColor" red="0.2901960784" green="0.48627450979999998" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1046,7 +1046,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5m-JM-8qq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6301" y="1052"/>
+            <point key="canvasLocation" x="6300" y="1051.6198704103672"/>
         </scene>
         <!--Your Letters-->
         <scene sceneID="4oC-PP-v64">
@@ -1644,6 +1644,21 @@
             </objects>
             <point key="canvasLocation" x="4111.6822429906542" y="913.60691144708426"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="r1k-KN-Nvc">
+            <objects>
+                <viewController id="yR1-Vn-07r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vOn-06-OBQ">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MLh-2F-qUz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aue-3N-XgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3615" y="1614"/>
+        </scene>
         <!--Drafts Overview View Controller-->
         <scene sceneID="j90-yf-Fjf">
             <objects>
@@ -1764,14 +1779,44 @@
                     <view key="view" contentMode="scaleToFill" id="AJi-nB-LPz">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U7b-fM-110">
+                                <rect key="frame" x="41" y="199" width="347" height="529"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Dear Jane,
+
+This week has been super stressful because all my finals are coming up and I feel really behind. There have been tests in all of my classes so I feel overwhelmed. With sports and clubs, I am having a difficult time keeping up with my school work and it’s getting hard for me to focus in class. I have a math test tomorrow that I haven’t studied yet so I’m really stressed out and am overall unmotivated. 
+
+Love,
+Jane</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="June 7, 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLM-kh-RRU">
+                                <rect key="frame" x="158" y="88" width="113" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzU-nb-LVK">
+                                <rect key="frame" x="172" y="120" width="84" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="y5s-YS-Saq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Ld-W2-Vzg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMM-9E-Oy3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5380" y="1729"/>
+            <point key="canvasLocation" x="5378.9719626168226" y="1728.7257019438446"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
